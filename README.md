@@ -58,3 +58,14 @@ As an online user
 I want the app to make show the username and email from database on profiles pages
 So I can see my username and email
 ```
+
+---
+## TECH STACK
+```
+Java
+MVVM PATTERN
+Firebase Authentication
+Firebase Realtime Database
+Viewbinding
+Jetpack Navigation
+```
