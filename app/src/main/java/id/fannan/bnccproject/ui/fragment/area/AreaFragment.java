@@ -41,6 +41,10 @@ public class AreaFragment extends Fragment {
             boolean isRectangle = checkedId == R.id.rb_rectangle;
             boolean isTriangle = checkedId == R.id.rb_triangle;
             boolean isCircle = checkedId == R.id.rb_circle;
+            binding.etBase.setText(""); // Clear the EditText
+            binding.etHeight.setText(""); // Clear the EditText
+            binding.etLength.setText(""); // Clear the EditText
+            binding.etRadius.setText(""); // Clear the EditText
 
             binding.etBase.setVisibility(isRectangle || isTriangle ? View.VISIBLE : View.GONE);
             binding.etHeight.setVisibility(isRectangle || isTriangle ? View.VISIBLE : View.GONE);

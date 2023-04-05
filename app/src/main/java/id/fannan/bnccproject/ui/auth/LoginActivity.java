@@ -67,9 +67,8 @@ public class LoginActivity extends AppCompatActivity {
             switch (state) {
                 case LOADING:
                     progressDialog = new ProgressDialog(LoginActivity.this);
-                    progressDialog.setMessage("Logging in... " + user.getEmail());
+                    progressDialog.setMessage("Logging in... ");
                     progressDialog.show();
-                    Toast.makeText(LoginActivity.this, "Logging in...", Toast.LENGTH_SHORT).show();
                     break;
                 case SUCCESS:
                     progressDialog.dismiss();

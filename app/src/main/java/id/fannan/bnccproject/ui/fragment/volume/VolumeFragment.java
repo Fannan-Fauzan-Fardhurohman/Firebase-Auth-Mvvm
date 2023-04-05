@@ -41,6 +41,11 @@ public class VolumeFragment extends Fragment {
             boolean isBlocks = checkedId == R.id.rb_blocks;
             boolean isPyramids = checkedId == R.id.rb_pyramids;
             boolean isTubes = checkedId == R.id.rb_tubes;
+            binding.etBase.setText(""); // Clear the EditText
+            binding.etHeight.setText(""); // Clear the EditText
+            binding.etLength.setText(""); // Clear the EditText
+            binding.etRadius.setText(""); // Clear the EditText
+            binding.etRadius2.setText(""); // Clear the EditText
             binding.etBase.setVisibility(isBlocks || isPyramids ? View.VISIBLE : View.GONE);
             binding.etHeight.setVisibility(View.VISIBLE);
             binding.etLength.setVisibility(isBlocks ? View.VISIBLE : View.GONE);

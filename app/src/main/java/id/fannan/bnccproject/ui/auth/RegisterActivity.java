@@ -51,7 +51,7 @@ public class RegisterActivity extends AppCompatActivity {
             binding.etEmail.setError("Email is required");
             return;
         }
-        if (name.length() < 5) {
+        if (name.length() <= 5) {
             binding.etUsername.setError("Minimum 5 Characters");
         }
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
