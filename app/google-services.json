@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420349648625",
+    "project_id": "bncc-3cceb",
+    "storage_bucket": "bncc-3cceb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420349648625:android:503f290c3e33577ecd5350",
+        "android_client_info": {
+          "package_name": "id.fannan.bnccproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420349648625-i3liu4svcd5jn4alh1p7vbtid8n0nmoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC98GVisvIbqT_2RsDVo62nOONPRIRufRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420349648625-i3liu4svcd5jn4alh1p7vbtid8n0nmoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

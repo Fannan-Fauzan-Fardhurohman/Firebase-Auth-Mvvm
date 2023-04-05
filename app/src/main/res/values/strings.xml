@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BnccProject</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">main</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="shape_prompt">Choose a shape:</string>
+    <string name="calculate">Calculate</string>
+    <string name="search">Cari</string>
+    <string name="hint_base">Enter base value</string>
+    <string name="hint_height">Enter Height</string>
+    <string name="hint_length">Enter Length</string>
+    <string name="hint_radius">Enter Radius</string>
+    <string name="counter">Counter</string>
+    <string name="area_shape">Area Shape</string>
+    <string name="volume_shape">Volume Shape</string>
+    <string name="profile">Profile</string>
+    <string name="enter_length">Enter Length</string>
+    <string name="enter_radius">Enter Radius</string>
+    <string name="enter_second_radius">Enter Second Radius</string>
+    <string name="select_shape">Select Shape</string>
+    <string name="blocks">Blocks</string>
+    <string name="pyramids">Pyramids</string>
+    <string name="tubes">Tubes</string>
+    <string-array name="shape_array">
+        <item>Circle</item>
+        <item>Square</item>
+        <item>Triangle</item>
+    </string-array>
+    <string-array name="volume_array">
+        <item>Blocks</item>
+        <item>Pyramids</item>
+        <item>Tubes</item>
+    </string-array>
+</resources>

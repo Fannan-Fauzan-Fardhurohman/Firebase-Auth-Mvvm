@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_counter"
+        android:icon="@drawable/baseline_add_circle_24"
+        android:title="@string/counter" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_calculate_24"
+        android:title="@string/area_shape" />
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/baseline_view_in_ar_24"
+        android:title="@string/volume_shape" />
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/baseline_person_24"
+        android:title="@string/profile" />
+</menu>

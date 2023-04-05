@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_counter">
+
+    <fragment
+        android:id="@+id/navigation_counter"
+        android:name="id.fannan.bnccproject.ui.fragment.counter.CounterFragment"
+        android:label="@string/counter"
+        tools:layout="@layout/fragment_counter" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="id.fannan.bnccproject.ui.fragment.area.AreaFragment"
+        android:label="@string/area_shape"
+        tools:layout="@layout/fragment_area" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="id.fannan.bnccproject.ui.fragment.volume.VolumeFragment"
+        android:label="@string/volume_shape"
+        tools:layout="@layout/fragment_volume" />
+
+    <fragment
+        android:id="@+id/navigation_logout"
+        android:name="id.fannan.bnccproject.ui.fragment.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
